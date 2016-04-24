@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  SXT
+//
+//  Created by 赵金鹏 on 16/3/28.
+//  Copyright © 2016年 赵金鹏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define RGB(r,g,b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define WS(weakSelf) __unsafe_unretained __typeof(&*self)weakSelf = self;
+#define mas_equalTo(...)                 equalTo(MASBoxValue((__VA_ARGS__)))
+#define mas_offset(...)                  valueOffset(MASBoxValue((__VA_ARGS__)))
+#define equalTo(...)                     mas_equalTo(__VA_ARGS__)
+#define offset(...)                      mas_offset(__VA_ARGS__)
+#define VIEW_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define VIEW_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define Rect(x, y, w, h)                    CGRectMake(x, y, w, h)
+
+
+#endif /* PrefixHeader_pch */
+
+#import "Masonry.h"
+#import "UIImageView+SDWebImage.h"

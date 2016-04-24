@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047189FD1CC91E7700C1C275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047189FC1CC91E7700C1C275 /* main.m */; };
+		04718A001CC91E7700C1C275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047189FF1CC91E7700C1C275 /* AppDelegate.m */; };
+		04718A031CC91E7700C1C275 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04718A021CC91E7700C1C275 /* ViewController.m */; };
+		04718A061CC91E7700C1C275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04718A041CC91E7700C1C275 /* Main.storyboard */; };
+		04718A081CC91E7700C1C275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04718A071CC91E7700C1C275 /* Assets.xcassets */; };
+		04718A0B1CC91E7700C1C275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04718A091CC91E7700C1C275 /* LaunchScreen.storyboard */; };
+		04F315A01CCA6E6500D46582 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F3159F1CCA6E6500D46582 /* WebKit.framework */; };
+		04F315AD1CCC97EE00D46582 /* RocWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F315AC1CCC97EE00D46582 /* RocWebBrowserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047189F81CC91E7700C1C275 /* webkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047189FC1CC91E7700C1C275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		047189FE1CC91E7700C1C275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		047189FF1CC91E7700C1C275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04718A011CC91E7700C1C275 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04718A021CC91E7700C1C275 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04718A051CC91E7700C1C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04718A071CC91E7700C1C275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04718A0A1CC91E7700C1C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04718A0C1CC91E7700C1C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F3159F1CCA6E6500D46582 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/PrivateFrameworks/WebKit.framework; sourceTree = SDKROOT; };
+		04F315AB1CCC97EE00D46582 /* RocWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocWebBrowserViewController.h; sourceTree = "<group>"; };
+		04F315AC1CCC97EE00D46582 /* RocWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RocWebBrowserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047189F51CC91E7700C1C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F315A01CCA6E6500D46582 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047189EF1CC91E7600C1C275 = {
+			isa = PBXGroup;
+			children = (
+				04F3159F1CCA6E6500D46582 /* WebKit.framework */,
+				047189FA1CC91E7700C1C275 /* webkit */,
+				047189F91CC91E7700C1C275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047189F91CC91E7700C1C275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047189F81CC91E7700C1C275 /* webkit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047189FA1CC91E7700C1C275 /* webkit */ = {
+			isa = PBXGroup;
+			children = (
+				047189FE1CC91E7700C1C275 /* AppDelegate.h */,
+				047189FF1CC91E7700C1C275 /* AppDelegate.m */,
+				04718A011CC91E7700C1C275 /* ViewController.h */,
+				04718A021CC91E7700C1C275 /* ViewController.m */,
+				04F315AA1CCC97EE00D46582 /* RocWebBrowser */,
+				04718A041CC91E7700C1C275 /* Main.storyboard */,
+				04718A071CC91E7700C1C275 /* Assets.xcassets */,
+				04718A091CC91E7700C1C275 /* LaunchScreen.storyboard */,
+				04718A0C1CC91E7700C1C275 /* Info.plist */,
+				047189FB1CC91E7700C1C275 /* Supporting Files */,
+			);
+			path = webkit;
+			sourceTree = "<group>";
+		};
+		047189FB1CC91E7700C1C275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				047189FC1CC91E7700C1C275 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F315AA1CCC97EE00D46582 /* RocWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				04F315AB1CCC97EE00D46582 /* RocWebBrowserViewController.h */,
+				04F315AC1CCC97EE00D46582 /* RocWebBrowserViewController.m */,
+			);
+			path = RocWebBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047189F71CC91E7700C1C275 /* webkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04718A0F1CC91E7700C1C275 /* Build configuration list for PBXNativeTarget "webkit" */;
+			buildPhases = (
+				047189F41CC91E7700C1C275 /* Sources */,
+				047189F51CC91E7700C1C275 /* Frameworks */,
+				047189F61CC91E7700C1C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webkit;
+			productName = webkit;
+			productReference = 047189F81CC91E7700C1C275 /* webkit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047189F01CC91E7600C1C275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wp;
+				TargetAttributes = {
+					047189F71CC91E7700C1C275 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 047189F31CC91E7600C1C275 /* Build configuration list for PBXProject "webkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047189EF1CC91E7600C1C275;
+			productRefGroup = 047189F91CC91E7700C1C275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047189F71CC91E7700C1C275 /* webkit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047189F61CC91E7700C1C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04718A0B1CC91E7700C1C275 /* LaunchScreen.storyboard in Resources */,
+				04718A081CC91E7700C1C275 /* Assets.xcassets in Resources */,
+				04718A061CC91E7700C1C275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047189F41CC91E7700C1C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04718A031CC91E7700C1C275 /* ViewController.m in Sources */,
+				04F315AD1CCC97EE00D46582 /* RocWebBrowserViewController.m in Sources */,
+				04718A001CC91E7700C1C275 /* AppDelegate.m in Sources */,
+				047189FD1CC91E7700C1C275 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04718A041CC91E7700C1C275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04718A051CC91E7700C1C275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04718A091CC91E7700C1C275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04718A0A1CC91E7700C1C275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04718A0D1CC91E7700C1C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04718A0E1CC91E7700C1C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04718A101CC91E7700C1C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = webkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jfy.webkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04718A111CC91E7700C1C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = webkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jfy.webkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047189F31CC91E7600C1C275 /* Build configuration list for PBXProject "webkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04718A0D1CC91E7700C1C275 /* Debug */,
+				04718A0E1CC91E7700C1C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04718A0F1CC91E7700C1C275 /* Build configuration list for PBXNativeTarget "webkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04718A101CC91E7700C1C275 /* Debug */,
+				04718A111CC91E7700C1C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047189F01CC91E7600C1C275 /* Project object */;
+}
